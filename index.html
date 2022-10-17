@@ -38,10 +38,15 @@
           Professor de Inglês, já morou nos Estados Unidos e Inglaterra.
         </p>
         <form class="teacher-contract">
+          <input name="price" type="hidden" value="100" />
           <input
+            name="hours"
             type="number"
             placeholder="Quantidade de horas"
             class="teacher-contract-hours"
+            min="1"
+            max="3"
+            required
           />
           <button type="submit" class="teacher-contract-button">
             Calcular valor total
@@ -61,10 +66,15 @@
           Professora de Inglês, já morou nos Estados Unidos e Inglaterra.
         </p>
         <form class="teacher-contract">
+          <input name="price" type="hidden" value="100" />
           <input
+            name="hours"
             type="number"
             placeholder="Quantidade de horas"
             class="teacher-contract-hours"
+            min="1"
+            max="3"
+            required
           />
           <button type="submit" class="teacher-contract-button">
             Calcular valor total
@@ -72,5 +82,7 @@
         </form>
       </section>
     </main>
+
+    <script src="./static/js/script.js"></script>
   </body>
 </html>
